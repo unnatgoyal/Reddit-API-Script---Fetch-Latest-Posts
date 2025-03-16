@@ -1,7 +1,22 @@
-# Reddit API Fetch Script
-This script connects to the Reddit API using OAuth authentication and retrieves the 5 latest posts from a specified subreddit. It prints each post's title, author, upvote count, and URL.
+Reddit API Script
 
-Installation
+📌 Overview
+
+
+
+This script interacts with the Reddit API to fetch the latest 5 posts from a given subreddit. It uses OAuth authentication via the praw library to securely connect to Reddit.Installation.
+
+🚀 Features
+
+✅ Authenticate with Reddit API using OAuth.
+
+📥 Fetch the 5 latest posts from a specified subreddit.
+
+📝 Display each post's title, author, upvote count, and URL.
+
+
+
+🛠️ Handle authentication failures and API errors gracefully
 
 Install Python (if not already installed).
 
@@ -29,24 +44,23 @@ The script will display the latest 5 posts with their title, author, upvote coun
 
 Example Output
 
-✅ Successfully authenticated with Reddit API!
-Enter subreddit name (e.g., python): technology
-📢 Fetching 5 latest posts from r/technology...
+✅Successfully authenticated with Reddit API!
+Enter subreddit name : title
+📢 Fetching 5 latest posts from r/title...
 
-      🔹 Title: AI is revolutionizing the industry
-         Author: tech_guru
-         Upvotes: 1050
-         URL: https://www.reddit.com/r/technology/post1
+🔹 Title: Movies
+   Author: Itcilis
+   Upvotes: 6
+   URL: https://www.reddit.com/r/Title/comments/eod06x/movies/
 
-      🔹 Title: New tech trends in 2025
-         Author: future_visionary
-         Upvotes: 875
-         URL: https://www.reddit.com/r/technology/post2
+🔹 Title: Title History
+   Author: Itcilis
+   Upvotes: 6
+   URL: https://www.reddit.com/r/Title/comments/ensbp3/title_history/
 
 Notes
 
 Ensure that your Reddit API credentials are correct.
 
 If you encounter errors, check API rate limits and subreddit availability.
-
 
