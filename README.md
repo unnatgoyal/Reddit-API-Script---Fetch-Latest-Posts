@@ -33,15 +33,15 @@ Example Output
 Enter subreddit name (e.g., python): technology
 📢 Fetching 5 latest posts from r/technology...
 
-🔹 Title: AI is revolutionizing the industry
-   Author: tech_guru
-   Upvotes: 1050
-   URL: https://www.reddit.com/r/technology/post1
+      🔹 Title: AI is revolutionizing the industry
+         Author: tech_guru
+         Upvotes: 1050
+         URL: https://www.reddit.com/r/technology/post1
 
-🔹 Title: New tech trends in 2025
-   Author: future_visionary
-   Upvotes: 875
-   URL: https://www.reddit.com/r/technology/post2
+      🔹 Title: New tech trends in 2025
+         Author: future_visionary
+         Upvotes: 875
+         URL: https://www.reddit.com/r/technology/post2
 
 Notes
 
