@@ -1,66 +1,41 @@
-# **Reddit API Script**
+# Reddit API Script
+This script authenticates with the Reddit API and fetches the latest 5 posts from a specified subreddit.
+## Installation
+1. Install Python (if not already installed).
+2. Install the required dependencies using:
+ ```sh
+ pip install praw python-dotenv
+ ```
+## Setup
+1. Create a `.env` file in the project directory and add your Reddit API credentials:
+ ```sh
+ REDDIT_CLIENT_ID=your_client_id
+ REDDIT_CLIENT_SECRET=your_client_secret
+ REDDIT_USER_AGENT=your_custom_user_agent
+ ```
+## Usage
+1. Run the script using:
+ ```sh
+ python reddit_fetch.py
+ ```
+2. Enter the subreddit name when prompted.
+3. The script will display the latest 5 posts with their title, author, upvote count, and URL.
+## Example Output
+```
+Successfully authenticated with Reddit API!
+Enter subreddit name (e.g., python): technology
+Fetching 5 latest posts from r/technology...
 
-📌 Overview
+Title: AI is revolutionizing the industry
+ Author: tech_guru
+ Upvotes: 1050
+ URL: https://www.reddit.com/r/technology/post1
 
-
-
-This script interacts with the Reddit API to fetch the latest 5 posts from a given subreddit. It uses OAuth authentication via the praw library to securely connect to Reddit.Installation.
-
-🚀 Features
-
-✅ Authenticate with Reddit API using OAuth.
-
-📥 Fetch the 5 latest posts from a specified subreddit.
-
-📝 Display each post's title, author, upvote count, and URL.
-
-
-
-🛠️ Handle authentication failures and API errors gracefully
-
-Install Python (if not already installed).
-
-Install the required dependencies using:
-
-pip install praw python-dotenv
-
-Setup
-
-Create a .env file in the project directory and add your Reddit API credentials:
-
-REDDIT_CLIENT_ID=your_client_id
-REDDIT_CLIENT_SECRET=your_client_secret
-REDDIT_USER_AGENT=your_custom_user_agent
-
-Usage
-
-Run the script using:
-
-python reddit_fetch.py
-
-Enter the subreddit name when prompted.
-
-The script will display the latest 5 posts with their title, author, upvote count, and URL.
-
-Example Output
-
-✅Successfully authenticated with Reddit API!
-Enter subreddit name : title
-📢 Fetching 5 latest posts from r/title...
-
-🔹 Title: Movies
-   Author: Itcilis
-   Upvotes: 6
-   URL: https://www.reddit.com/r/Title/comments/eod06x/movies/
-
-🔹 Title: Title History
-   Author: Itcilis
-   Upvotes: 6
-   URL: https://www.reddit.com/r/Title/comments/ensbp3/title_history/
-
-Notes
-
-Ensure that your Reddit API credentials are correct.
-
-If you encounter errors, check API rate limits and subreddit availability.
-
+Title: New tech trends in 2025
+ Author: future_visionary
+ Upvotes: 875
+ URL: https://www.reddit.com/r/technology/post2
+```
+## Notes
+- Ensure that your Reddit API credentials are correct.
+- If you encounter errors, check API rate limits and subreddit availability.
