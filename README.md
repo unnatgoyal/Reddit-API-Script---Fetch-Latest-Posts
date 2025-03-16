@@ -1,4 +1,4 @@
-# Reddit API Script
+# Reddit API Script (the soul publishing)
 This script authenticates with the Reddit API and fetches the latest 5 posts from a specified subreddit.
 ## Installation
 1. Install Python (if not already installed).
