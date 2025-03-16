@@ -1,4 +1,4 @@
-Reddit API Script
+# **Reddit API Script**
 
 📌 Overview
 
